@@ -1,0 +1,73 @@
+body, html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    text-align: center;
+    color: white;
+    background: linear-gradient(125deg, #d3ad68cb, #f5a0d2c7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero h1{
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: FadeIn 1.5s forwards 0.5s;
+    color: #27272a;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.hero p{
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: FadeIn 1.5s forwards 0.7s;
+    color: #27272a;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cta-button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #FFD3B5;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    color: #27272a;
+    border: #27272a solid;
+    
+
+}
+.cta-button:hover{
+    background-color: #2564eb00;
+    transform: scale(1.05);
+}
+@keyframes FadeIn {
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+     }
+    
+body {
+    background-image: url(img/IkerLink\ Fondo.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+
+
+
+}
+  
